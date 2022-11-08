@@ -1,0 +1,39 @@
+html,
+body,
+.container-flex {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-flex {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonactiveactive {
+  background-color: #0000ff;
+}
+
+.buttonactivewrong {
+  background-color: #ff0000;
+}
+
+.buttonactivecorrect {
+  background-color: #0000ff;
+}
+
+.buttonactivehide {
+  display: none;
+}
+
+.button,
+.buttonactiveactive,
+.buttonactivewrong,
+.buttonactivecorrect {
+  height: 50px;
+  width: 100px;
+  margin-right: 5px;
+  border-radius: 0;
+}
